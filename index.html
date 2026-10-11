@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="shopContainer">
+        <h1>Shopping Cart</h1>
+
+        <input type="text" id="searchInput" placeholder="Search Product">
+
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+
+        <div id="productList"></div>
+
+        <h2>Cart</h2>
+
+        <div id="cartList"></div>
+
+        <h3 id="cartTotal">Total: Rs. 0</h3>
+
+        <button id="clearCartBtn">Clear Cart</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
